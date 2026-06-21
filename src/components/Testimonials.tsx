@@ -1,25 +1,25 @@
 export function Testimonials() {
   const testimonials = [
     {
-      name: "Анна Ковальская",
-      role: "Исполнительный ассистент в TechFlow Solutions",
+      name: "Анна К.",
+      role: "Гражданское дело",
       image: "/professional-woman-headshot.png",
       quote:
-        "Структурированный подход к изучению инструментов управления проектами - именно то, что мне было нужно. Через два месяца я получила удаленную работу в tech-стартапе.",
+        "Елена Сергеевна помогла выиграть сложный спор о наследстве, который тянулся больше года. Грамотная стратегия и полное сопровождение на каждом этапе.",
     },
     {
-      name: "Максим Волков",
-      role: "VA в Stellar Analytics",
+      name: "Максим В.",
+      role: "Уголовное дело",
       image: "/professional-man-headshot.png",
       quote:
-        "Коучинг помог мне обрести уверенность в общении с клиентами. Сейчас я веду аккаунты сразу трех компаний одновременно.",
+        "Профессионализм на высшем уровне. Опыт работы в Следственном комитете действительно чувствуется — дело завершилось в мою пользу.",
     },
     {
-      name: "Елена Родригес",
-      role: "Фриланс VA, Alpine Ventures",
+      name: "Елена Р.",
+      role: "Защита интересов в суде",
       image: "/professional-woman-smiling.png",
       quote:
-        "Практические упражнения и реальные кейсы подготовили меня ко всему. Удержание клиентов значительно выросло после прохождения программы.",
+        "Очень благодарна за индивидуальный подход и честность. Работа велась строго по договору, всё прозрачно и без скрытых условий.",
     },
   ]
 
@@ -28,7 +28,7 @@ export function Testimonials() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <p className="text-accent font-semibold text-sm uppercase tracking-wide">Истории успеха</p>
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 text-balance">Отзывы наших учеников</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 text-balance">Отзывы наших клиентов</h2>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
